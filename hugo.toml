@@ -1,0 +1,96 @@
+baseURL = "https://novelpop.dev/"
+languageCode = "zh-CN"
+title = "novelpop.dev"
+theme = "hugo-webstack"
+
+# true：允许大写字母 URL 路径
+# false：将 URL 路径转换成小写
+disablePathToLower = true
+
+# 页脚作者
+copyright = "novelpop.dev"
+
+# 网站信息，仅供搜索引擎参考
+[params]
+  keywords = "短剧, 小说, 霸道总裁, 玄幻, 都市, 吸血鬼, 武侠"
+  description = "novelpop.dev，收集全网最好看的短剧，小说"
+
+# 目录
+[markup.tableOfContents]
+  startLevel = 1
+
+# =========================
+# 多语言
+# =========================
+
+[languages]
+
+[languages.zh]
+  languageName = "中文"
+  contentDir = "content.zh"
+  weight = 1
+
+[languages.en]
+  languageName = "English"
+  contentDir = "content.en"
+  weight = 2
+
+[languages.ru]
+  languageName = "Русский"
+  contentDir = "content.ru"
+  weight = 3
+
+# =========================
+# 搜索
+# =========================
+
+[params.search]
+  enable = true
+
+# =========================
+# 暗色模式
+# =========================
+
+[params.darkmode]
+  enable = false
+
+# =========================
+# 拼音搜索
+# =========================
+
+[params.pinyin]
+  enable = true
+
+# =========================
+# GitHub 在线编辑
+# =========================
+
+#[params.edit]
+#  enable = true
+#  url = "https://github.com/zzt0341011/blog9-4566.lol/blob/main/data/webstack.yml"
+
+# =========================
+# GitHub 按钮
+# =========================
+
+#[params.github]
+#  enable = true
+#  url = "https://github.com/zzt0341011/blog9-4566.lol"
+
+# =========================
+# 404
+# =========================
+
+[permalinks]
+  404 = "/404.html"
+
+# =========================
+# 顶部/底部菜单
+# =========================
+
+#[menu]
+
+#[[menu.after]]
+#  name = "7元20G不限时"
+#  url = "https://快车.com?c=REZUOC"
+#  weight = 20
