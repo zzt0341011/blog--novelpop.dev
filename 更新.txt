@@ -36,5 +36,5 @@ content/sites/openai.md
 更新博客
 
 git add .
-git commit -m "add jichang-novelpop.dev"
+git commit -m "add tuiwen-novelpop.dev"
 git push -u origin main
