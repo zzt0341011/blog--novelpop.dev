@@ -54,6 +54,11 @@ copyright = "novelpop.dev"
 [params.darkmode]
   enable = false
 
+[markup]
+  [goldmark]
+    [renderer]
+      unsafe = true
+
 # =========================
 # 拼音搜索
 # =========================
