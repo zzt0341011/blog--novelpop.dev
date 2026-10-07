@@ -35,6 +35,8 @@ content/sites/openai.md
 
 更新博客
 
+python scripts/generate-sites.py
+
 git add .
 git commit -m "add tuiwen-novelpop.dev"
 git push -u origin main
