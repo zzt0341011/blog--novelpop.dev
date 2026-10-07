@@ -16,6 +16,16 @@ logo: "/images/logos/dribbble.png"
 
 Dribbble 是一个面向设计师和创意工作者的作品展示与灵感交流平台。用户可以在这里浏览 UI、UX、网页设计、品牌设计、插画等各种优秀作品。
 
+<iframe 
+  width="315" 
+  height="560" 
+  src="https://www.youtube.com/embed/视频ID" 
+  title="YouTube short" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
+
 ## Dribbble 是什么？
 
 Dribbble 是全球知名的设计作品展示与设计师交流平台。
