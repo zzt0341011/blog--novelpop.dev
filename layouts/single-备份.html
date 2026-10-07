@@ -13,11 +13,11 @@
 <meta property="og:description" content="{{ .Description }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 {{ with .Params.logo }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
-<link rel="shortcut icon" href="{{ "images/favicon.png" | absURL }}">
-<link rel="stylesheet" href="{{ "css/font-awesome.min.css?ver=6.5.1" | absURL }}">
-<link rel="stylesheet" href="{{ "css/bootstrap.css?ver=3.4.1" | absURL }}">
-<link rel="stylesheet" href="{{ "css/nav.css?ver=2.0.0" | absURL }}">
-<script src="{{ "js/jquery-1.11.1.min.js" | absURL }}"></script>
+<link rel="shortcut icon" href="{{ "images/favicon.png" | relURL }}">
+<link rel="stylesheet" href="{{ "css/font-awesome.min.css?ver=6.5.1" | relURL }}">
+<link rel="stylesheet" href="{{ "css/bootstrap.css?ver=3.4.1" | relURL }}">
+<link rel="stylesheet" href="{{ "css/nav.css?ver=2.0.0" | relURL }}">
+<script src="{{ "js/jquery-1.11.1.min.js" | relURL }}"></script>
 <style>
 .site-detail{max-width:980px;margin:35px auto 100px;padding:0 20px}.site-detail-card{background:#fff;padding:35px 40px;border-radius:6px;box-shadow:0 2px 12px rgba(0,0,0,.06)}.site-detail-logo{width:64px;height:64px;object-fit:contain;margin-right:18px;vertical-align:middle}.site-detail h1{display:inline-block;vertical-align:middle;margin:0}.site-detail-content{margin-top:30px;line-height:1.9;font-size:15px}.site-detail-content h2{margin-top:30px}.site-detail-actions{margin-top:30px}
 </style>
@@ -25,8 +25,8 @@
 <body class="page-body {{ if .Site.Params.darkmode.enable }}black{{ else }}white{{ end }}">
 <div class="page-container">
 <div class="sidebar-menu toggle-others fixed"><div class="sidebar-menu-inner"><header class="logo-env"><div class="logo">
-<a href="{{ .Site.Home.RelPermalink }}" class="logo-expanded"><img src="{{ "images/logo.png" | absURL }}" height="40" alt="{{ .Site.Title }}">&nbsp;&nbsp;{{ .Site.Title }}</a>
-<a href="{{ .Site.Home.RelPermalink }}" class="logo-collapsed"><img src="{{ "images/logo.png" | absURL }}" height="40" alt="{{ .Site.Title }}"></a>
+<a href="{{ .Site.Home.RelPermalink }}" class="logo-expanded"><img src="{{ "images/logo.png" | relURL }}" height="40" alt="{{ .Site.Title }}">&nbsp;&nbsp;{{ .Site.Title }}</a>
+<a href="{{ .Site.Home.RelPermalink }}" class="logo-collapsed"><img src="{{ "images/logo.png" | relURL }}" height="40" alt="{{ .Site.Title }}"></a>
 </div></header>
 <ul id="main-menu" class="main-menu"><li><a href="{{ .Site.Home.RelPermalink }}"><i class="fa fa-home fa-fw"></i><span class="title">返回首页</span></a></li>
 {{ if .Site.Params.edit.enable }}<li><a href="{{ .Site.Params.edit.url }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-edit fa-fw"></i><span class="tooltip-blue">在线编辑</span></a></li>{{ end }}
@@ -41,5 +41,5 @@
 </article></main>
 <footer class="main-footer sticky footer-type-1"><div class="footer-inner"><div class="footer-text">Copyright © {{ now.Format "2006" }} <strong>{{ .Site.Copyright }}</strong></div></div></footer>
 </div></div>
-<script src="{{ "js/bootstrap.min.js?ver=3.4.1" | absURL }}"></script><script src="{{ "js/nav.js?ver=2.0.0" | absURL }}"></script><script src="{{ "js/local-search.js" | absURL }}"></script>
+<script src="{{ "js/bootstrap.min.js?ver=3.4.1" | relURL }}"></script><script src="{{ "js/nav.js?ver=2.0.0" | relURL }}"></script><script src="{{ "js/local-search.js" | relURL }}"></script>
 </body></html>
