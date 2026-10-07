@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ .Title }}官网、{{ .Title }}是什么、功能介绍 | {{ .Site.Title }}</title>
-<meta name="keywords" content="{{ delimit .Params.keywords ", " }}">
+<meta name="keywords" content="{{ delimit (.Params.keywords | default (slice)) ", " }}">
 <meta name="description" content="{{ .Description }}">
 <link rel="canonical" href="{{ .Permalink }}">
 <meta property="og:type" content="article">
