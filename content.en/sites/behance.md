@@ -21,8 +21,10 @@ Dribbble 是一个面向设计师和创意工作者的作品展示与灵感交�
 <iframe
   width="100%"
   height="600"
-  src="https://www.youtube.com/shorts/k6p6jiaQaAE"
+  src="https://www.youtube.com/embed/k6p6jiaQaAE"
+  title="YouTube Shorts"
   frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen>
 </iframe>
 

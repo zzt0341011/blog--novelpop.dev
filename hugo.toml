@@ -34,7 +34,6 @@ copyright = "novelpop.dev"
   languageName = "English"
   contentDir = "content.en"
   weight = 2
-
 [languages.ru]
   languageName = "Русский"
   contentDir = "content.ru"
@@ -55,8 +54,8 @@ copyright = "novelpop.dev"
   enable = false
 
 [markup]
-  [goldmark]
-    [renderer]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
       unsafe = true
 
 # =========================
