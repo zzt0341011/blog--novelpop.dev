@@ -43,7 +43,7 @@ git push -u origin main
 
 最新更新
 
-python3 scripts/generate-sites.py
+python scripts/generate-sites.py
 
 git pull --rebase
 

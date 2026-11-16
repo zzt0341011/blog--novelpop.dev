@@ -7,7 +7,7 @@ keywords:
   - "Dribbble官方网站"
   - "Dribbble介绍"
   - "Dribbble是什么"
-website: "https://dribbble.com/"
+website: "https://r.reelsgo.tv/lyhsKNIOiQWO"
 logo: ""
 slug: "dribbble"
 ---
@@ -46,7 +46,7 @@ Dribbble 提供了与其服务领域相关的内容和功能。
 
 如果你想进一步了解 Dribbble，可以访问官方网站。
 
-**[立即访问 Dribbble 官网](https://dribbble.com/)**
+**[立即访问 Dribbble 官网](https://r.reelsgo.tv/lyhsKNIOiQWO)**
 
 ## 常见问题
 
@@ -58,7 +58,7 @@ Dribbble 是一个提供相关服务、工具或内容的网站。
 
 Dribbble 的官方网站是：
 
-https://dribbble.com/
+https://r.reelsgo.tv/lyhsKNIOiQWO
 
 ### 如何访问 Dribbble？
 
