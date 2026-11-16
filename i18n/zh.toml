@@ -1,8 +1,14 @@
+[home]
+other = "首页"
 
-home = "首页"
-visit_official = "访问官方网站"
-visit_official_now = "立刻访问官方网站"
-visit_named_now = "立刻访问%s官网"
-breadcrumb_home = "首页"
-seo_title = "%s官网、%s是什么、功能介绍 | %s"
-online_edit = "在线编辑"
+[visit_site]
+other = "立即访问 {{ . }} 官网"
+
+[visit_official]
+other = "访问官方网站"
+
+[online_edit]
+other = "在线编辑"
+
+[seo_title]
+other = "{{ .Title }}官网、{{ .Title }}是什么、功能介绍 | {{ .Site.Title }}"

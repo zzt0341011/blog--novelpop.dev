@@ -1,8 +1,14 @@
+[home]
+other = "Главная"
 
-home = "Главная"
-visit_official = "Официальный сайт"
-visit_official_now = "Перейти на официальный сайт"
-visit_named_now = "Перейти на официальный сайт %s"
-breadcrumb_home = "Главная"
-seo_title = "Официальный сайт %s, что такое %s, описание функций | %s"
-online_edit = "Редактировать онлайн"
+[visit_site]
+other = "Перейти на официальный сайт: {{ . }}"
+
+[visit_official]
+other = "Официальный сайт"
+
+[online_edit]
+other = "Редактировать онлайн"
+
+[seo_title]
+other = "Официальный сайт {{ .Title }}, что такое {{ .Title }}, описание функций | {{ .Site.Title }}"

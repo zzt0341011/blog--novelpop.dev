@@ -1,8 +1,14 @@
+[home]
+other = "Home"
 
-home = "Home"
-visit_official = "Visit Official Website"
-visit_official_now = "Visit the Official Website Now"
-visit_named_now = "Visit %s's Official Website Now"
-breadcrumb_home = "Home"
-seo_title = "%s Official Website, What Is %s? Features | %s"
-online_edit = "Edit Online"
+[visit_site]
+other = "Visit the Official Website of {{ . }}"
+
+[visit_official]
+other = "Visit Official Website"
+
+[online_edit]
+other = "Edit Online"
+
+[seo_title]
+other = "{{ .Title }} Official Website, What Is {{ .Title }}? Features | {{ .Site.Title }}"
