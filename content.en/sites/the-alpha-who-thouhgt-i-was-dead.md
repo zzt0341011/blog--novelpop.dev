@@ -1,11 +1,15 @@
 ---
-title: "The Alpha Who Thought I Was Dead – Emotional Werewolf Romance Summary & Review"
-date: 2026-11-15
-draft: false
-tags: ["werewolf romance", "alpha luna", "fated mates", "second chance", "shifter romance", "short novel"]
-categories: ["Book Reviews", "Paranormal Romance"]
+title: "The Alpha Who Thought I Was Dead"
 description: "Discover The Alpha Who Thought I Was Dead – a heartbreaking yet hopeful werewolf romance where an Alpha believes his Luna is dead for three years, until a masked healer walks into his pack."
-keywords: ["The Alpha Who Thought I Was Dead", "werewolf romance", "alpha thought luna dead", "fated mates story", "short shifter romance"]
+keywords:
+  - The Alpha Who Thought I Was Dead
+  - werewolf romance
+  - alpha thought luna dead
+  - fated mates story
+  - short shifter romance
+  - My Alpha Thought I Died Three Years Ago
+website: "https://r.reelsgo.tv/lyhsKNIOiQWO"
+logo: "/images/logos/alpha-thought-i-was-dead.png"
 ---
 
 # The Alpha Who Thought I Was Dead: A Heart-Wrenching Werewolf Romance
