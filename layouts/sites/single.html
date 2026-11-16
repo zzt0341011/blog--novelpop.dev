@@ -125,10 +125,7 @@
                 <ul class="user-info-menu left-links list-inline list-unstyled">
 
                     <li>
-                        <a href="{{ "/" | relLangURL }}">
-                            <i class="fa fa-home"></i>
-                            首页
-                        </a>
+	          <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
                     </li>
 
                     <li>
@@ -145,7 +142,7 @@
         <main class="site-detail">
 
             <div class="site-breadcrumb">
-                <a href="{{ "/" | relLangURL }}">首页</a>
+                <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
                 /
                 <span>{{ .Title }}</span>
             </div>
@@ -175,14 +172,9 @@
                     {{ with .Params.website }}
 
                     <div>
-                        <a
-                            href="{{ . }}"
-                            target="_blank"
-                            rel="nofollow noopener noreferrer"
-                            class="visit-button"
-                        >
-                            访问官方网站
-                        </a>
+	            <a href="{{ .Params.url }}" target="_blank" rel="noopener noreferrer">
+    	                 {{ i18n "visit_official" }}
+	            </a>
                     </div>
 
                     {{ end }}
@@ -197,14 +189,9 @@
                     {{ with .Params.website }}
 
                     <p>
-                        <a
-                            href="{{ . }}"
-                            target="_blank"
-                            rel="nofollow noopener noreferrer"
-                            class="visit-button"
-                        >
-                            立即访问 {{ $.Title }} 官网
-                        </a>
+	          <a href="{{ .Params.url }}" target="_blank" rel="noopener noreferrer">
+    	            {{ i18n "visit_official" }}
+	          </a>
                     </p>
 
                     {{ end }}

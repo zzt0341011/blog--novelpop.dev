@@ -1,11 +1,15 @@
 ---
-title: "《The Alpha Who Thought I Was Dead》剧情简介与分类推荐｜狼人浪漫短篇"
-date: 2026-11-15
-draft: false
-tags: ["狼人小说", "Alpha与Luna", "命定伴侣", "假死归来", "第二机会", "短篇言情"]
-categories: ["书评推荐", "奇幻言情"]
+title: "The Alpha Who Thought I Was Dead"
 description: "《The Alpha Who Thought I Was Dead》（又名《My Alpha Thought I Died Three Years Ago》）是一部情绪拉满的狼人浪漫短篇，Alpha以为命定Luna已死三年，直到戴面具的治疗师出现……"
-keywords: ["The Alpha Who Thought I Was Dead", "狼人浪漫", "Alpha以为我死了", "命定伴侣", "假死重逢"]
+keywords:
+  - The Alpha Who Thought I Was Dead
+  - 狼人浪漫
+  - Alpha以为我死了
+  - 命定伴侣
+  - 假死重逢
+  - My Alpha Thought I Died Three Years Ago
+website: "https://www.anystories.app/"
+logo: "/images/logos/alpha-thought-i-was-dead.png"
 ---
 
 # 《The Alpha Who Thought I Was Dead》：一部让人心疼的狼人浪漫短篇

@@ -1,11 +1,15 @@
 ---
-title: "The Alpha Who Thought I Was Dead — Краткий обзор и классификация волчьей романтики"
-date: 2026-11-15
-draft: false
-tags: ["werewolf romance", "alpha luna", "fated mates", "вторая возможность", "шифтер-романс", "короткий роман"]
-categories: ["Обзоры книг", "Паранормальная романтика"]
+title: "The Alpha Who Thought I Was Dead"
 description: "The Alpha Who Thought I Was Dead — эмоциональная короткая история о волке-Альфе, который три года считал свою Луну мёртвой, пока не появилась целительница в маске."
-keywords: ["The Alpha Who Thought I Was Dead", "волчья романтика", "альфа думал что луна мертва", "судьбоносные пары", "короткий шифтер-роман"]
+keywords:
+  - The Alpha Who Thought I Was Dead
+  - волчья романтика
+  - альфа думал что луна мертва
+  - судьбоносные пары
+  - короткий шифтер-роман
+  - My Alpha Thought I Died Three Years Ago
+website: "https://www.anystories.app/"
+logo: "/images/logos/alpha-thought-i-was-dead.png"
 ---
 
 # The Alpha Who Thought I Was Dead: Эмоциональная волчья романтика
