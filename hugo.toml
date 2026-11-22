@@ -1,5 +1,6 @@
 baseURL = "https://novelpop.dev/"
-languageCode = "zh-CN"
+languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "novelpop.dev"
 theme = "hugo-webstack"
 
