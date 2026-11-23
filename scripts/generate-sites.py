@@ -5,39 +5,39 @@ from pypinyin import lazy_pinyin
 
 
 # =========================================================
-# 配置
+# Configuration
 # =========================================================
 
 DATA_FILE = "data/webstack.yml"
-OUTPUT_DIR = "content/sites"
+OUTPUT_DIR = "content.en/sites"
 SLUG_FILE = "data/site-slugs.yml"
 
 
 # =========================================================
-# 生成 SEO slug
+# Generate SEO slug
 # =========================================================
 
 def make_slug(title):
 
     value = str(title).strip().lower()
 
-    # 中文转拼音
+    # Convert Chinese to pinyin
     value = "-".join(lazy_pinyin(value))
 
-    # 非英文、数字全部转 -
+    # Replace non-English letters and digits with -
     value = re.sub(r"[^a-z0-9]+", "-", value)
 
-    # 清理连续 -
+    # Collapse consecutive hyphens
     value = re.sub(r"-+", "-", value)
 
-    # 清理首尾 -
+    # Trim leading and trailing hyphens
     value = value.strip("-")
 
     return value
 
 
 # =========================================================
-# 读取多个 YAML document
+# Read multiple YAML documents
 # =========================================================
 
 def load_yaml_documents():
@@ -65,7 +65,7 @@ def load_yaml_documents():
 
 
 # =========================================================
-# 提取所有网站
+# Extract all sites
 # =========================================================
 
 def flatten_links(data):
@@ -77,14 +77,14 @@ def flatten_links(data):
         if not isinstance(category, dict):
             continue
 
-        # 一级分类
+        # Top-level category
         for link in category.get("links", []):
 
             if isinstance(link, dict):
 
                 sites.append(link)
 
-        # 二级分类
+        # Subcategory
         for subcategory in category.get("list", []):
 
             if not isinstance(subcategory, dict):
@@ -100,7 +100,7 @@ def flatten_links(data):
 
 
 # =========================================================
-# 清理文本
+# Clean text
 # =========================================================
 
 def clean_text(value):
@@ -118,7 +118,7 @@ def clean_text(value):
 
 
 # =========================================================
-# 生成详情页
+# Generate detail pages
 # =========================================================
 
 def create_markdown(site, slug):
@@ -142,10 +142,9 @@ def create_markdown(site, slug):
 
     keywords = [
         title,
-        f"{title}官网",
-        f"{title}官方网站",
-        f"{title}介绍",
-        f"{title}是什么",
+        f"{title} official website",
+        f"{title} introduction",
+        f"{title} what is",
     ]
 
     content = f'''---
@@ -167,57 +166,57 @@ slug: "{slug}"
 
 {description}
 
-## {title} 是什么？
+## What Is {title}?
 
-{title} 是一个值得收藏和使用的网站。
+{title} is a website worth bookmarking and using.
 
-如果你正在寻找与 **{title}** 相关的服务、工具、内容或资源，可以通过本站了解相关信息。
+If you are looking for services, tools, content, or resources related to **{title}**, you can learn more here.
 
-## {title} 主要功能
+## Key Features
 
-- 了解 {title} 提供的服务
-- 浏览 {title} 提供的内容
-- 获取相关使用信息
-- 了解网站主要特点
-- 访问 {title} 官方网站
+- Learn about the services {title} offers
+- Browse the content {title} offers
+- Find information about how to use it
+- Learn about the site's key features
+- Visit the official website of {title}
 
-## {title} 适合哪些人？
+## Who Is It For?
 
-{title} 适合需要相关服务、工具、内容或资源的用户。
+{title} is for users who need related services, tools, content, or resources.
 
-如果你正在寻找类似的网站，可以先了解 {title} 的主要功能，再决定是否使用。
+If you are looking for a similar website, learn about {title}'s key features first, then decide whether to use it.
 
-## {title} 的主要特点
+## What Makes It Special
 
-{title} 提供了与其服务领域相关的内容和功能。
+{title} offers content and features related to its field.
 
-对于第一次使用的用户，建议先访问官方网站，了解具体服务、使用方式以及最新信息。
+For first-time users, we recommend visiting the official website first to learn about its services, how to use them, and the latest information.
 
-## {title} 官网
+## Visit the Official Website
 
-如果你想进一步了解 {title}，可以访问官方网站。
+If you want to learn more about {title}, visit its official website.
 
-**[立即访问 {title} 官网]({website})**
+**[Visit the Official Website of {title}]({website})**
 
-## 常见问题
+## Frequently Asked Questions
 
-### {title} 是什么？
+### What Is {title}?
 
-{title} 是一个提供相关服务、工具或内容的网站。
+{title} is a website that offers related services, tools, or content.
 
-### {title} 官网在哪里？
+### Where Is the Official Website of {title}?
 
-{title} 的官方网站是：
+The official website of {title} is:
 
 {website}
 
-### 如何访问 {title}？
+### How Do I Visit {title}?
 
-你可以点击上方的“立即访问 {title} 官网”按钮进入官方网站。
+You can click the "Visit the Official Website of {title}" button above to visit the official website.
 
-### {title} 是否值得收藏？
+### Is {title} Worth Bookmarking?
 
-如果你经常需要使用 {title} 提供的服务，那么可以将其加入浏览器书签，方便以后访问。
+If you use the services {title} offers often, add it to your browser bookmarks for easy access.
 
 '''
 
@@ -239,13 +238,13 @@ slug: "{slug}"
 
         f.write(content)
 
-    print(f"生成：{filename}")
+    print(f"Generated: {filename}")
 
     return True
 
 
 # =========================================================
-# 生成 slug 映射
+# Save the slug map
 # =========================================================
 
 def save_slug_map(slug_map):
@@ -268,27 +267,27 @@ def save_slug_map(slug_map):
             sort_keys=False
         )
 
-    print(f"Slug 映射：{SLUG_FILE}")
+    print(f"Slug map: {SLUG_FILE}")
 
 
 # =========================================================
-# 主程序
+# Main program
 # =========================================================
 
 def main():
 
-    print("读取：", DATA_FILE)
+    print("Reading:", DATA_FILE)
 
     data = load_yaml_documents()
 
     print(
-        f"读取 YAML 分类：{len(data)} 个"
+        f"YAML categories read: {len(data)}"
     )
 
     sites = flatten_links(data)
 
     print(
-        f"发现网站：{len(sites)} 个"
+        f"Found sites: {len(sites)}"
     )
 
     success = 0
@@ -310,7 +309,7 @@ def main():
             continue
 
         # -----------------------------------------
-        # 优先使用 YAML 中手工指定 slug
+        # Prefer a manually specified slug from YAML
         # -----------------------------------------
 
         slug = site.get("slug")
@@ -326,14 +325,14 @@ def main():
         if not slug:
 
             print(
-                f"跳过：{title} —— 无法生成 slug"
+                f"Skipped: {title} — could not generate a slug"
             )
 
             skipped += 1
             continue
 
         # -----------------------------------------
-        # 防止 slug 重复
+        # Avoid duplicate slugs
         # -----------------------------------------
 
         original_slug = slug
@@ -349,20 +348,20 @@ def main():
         if slug != original_slug:
 
             print(
-                f"Slug 重复：{title}"
+                f"Duplicate slug: {title}"
                 f" → {slug}"
             )
 
         seen_slugs.add(slug)
 
         # -----------------------------------------
-        # 保存标题 → slug
+        # Save title -> slug
         # -----------------------------------------
 
         slug_map[title] = slug
 
         # -----------------------------------------
-        # 生成详情页
+        # Generate detail pages
         # -----------------------------------------
 
         if create_markdown(
@@ -377,19 +376,19 @@ def main():
             skipped += 1
 
     # -----------------------------------------
-    # 保存 slug 映射
+    # Save the slug map
     # -----------------------------------------
 
     save_slug_map(slug_map)
 
     print("")
     print("=" * 50)
-    print("详情页生成完成")
+    print("Detail pages generated")
     print("=" * 50)
-    print(f"成功：{success}")
-    print(f"跳过：{skipped}")
-    print(f"输出目录：{OUTPUT_DIR}")
-    print(f"Slug 映射：{SLUG_FILE}")
+    print(f"Success: {success}")
+    print(f"Skipped: {skipped}")
+    print(f"Output directory: {OUTPUT_DIR}")
+    print(f"Slug map: {SLUG_FILE}")
 
 
 if __name__ == "__main__":

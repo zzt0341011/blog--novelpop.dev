@@ -7,150 +7,150 @@
       logo:
       url: https://r.reelsgo.tv/lyhsKNIOiQWO
       slug: dribbble
-      description: 全球UI设计师作品分享平台。
+      description: A global platform where UI designers share their work.
     - title: Behance
       url: https://behance.net/
-      description: Adobe旗下的设计师交流平台，来自世界各地的设计师在这里分享自己的作品。
-    - title: 二维码演示
+      description: Adobe's designer community, where designers from around the world share their work.
+    - title: QR Code Demo
       qrcode: images/qrcodes/cli.png
       logo: 
       url: https://cli.im/url
-      description: 二维码演示，手机扫一扫，也可以点击
-    - title: UI中国
+      description: QR code demo — scan it with your phone, or click to open it.
+    - title: UI China
       url: https://www.ui.cn/
-      description: 图形交互与界面设计交流、作品展示、学习平台。
-    - title: 站酷
+      description: A community for graphic, interaction, and interface design, with work showcases and learning resources.
+    - title: ZCOOL
       url: https://www.zcool.com.cn/
-      description: 中国人气设计师互动平台
+      description: A popular Chinese designer community.
     - title: Pinterest
       logo:
       url: https://www.pinterest.com/
-      description: 全球美图收藏采集站
-    - title: 花瓣
+      description: A global site for collecting and saving beautiful images.
+    - title: Huaban
       logo: 
       url: https://huaban.com/
-      description: 收集灵感,保存有用的素材
+      description: Collect inspiration and save useful resources.
     - title: Medium
       url: https://medium.com/
-      description: 高质量设计文章
-    - title: 优设
+      description: High-quality design articles.
+    - title: UISDC
       logo:  
       url: https://www.uisdc.com/
-      description: 设计师交流学习平台
-    - title: Producthunt
+      description: A platform for designers to connect and learn.
+    - title: Product Hunt
       url: https://www.producthunt.com/
-      description: 发现新鲜有趣的产品
-    - title: Youtube
+      description: Discover fresh and interesting products.
+    - title: YouTube
       url: https://www.youtube.com/
-      description: 全球最大的学习分享平台
+      description: The world's largest learning and sharing platform.
     - title: Google
       url: https://www.google.com/
-      description: 全球最大的UI学习分享平台
+      description: The world's largest platform for learning UI design.
     
 
 - taxonomy: Contract Marriage
   icon: fa-regular fa-newspaper
   links: 
-    - title: 雷锋网
+    - title: Leiphone
       logo: images/logos/leiphone.png
       url: https://www.leiphone.com/
-      description: 人工智能和智能硬件领域的互联网科技媒体
-    - title: 36kr
+      description: A tech media outlet covering AI and smart hardware.
+    - title: 36Kr
       logo: images/logos/36kr.png
       url: https://36kr.com/
-      description: 创业资讯、科技新闻
-    - title: 数英网
+      description: Startup news and tech coverage.
+    - title: Digitaling
       logo: images/logos/digitaling.png
       url: https://www.digitaling.com/
-      description: 数字媒体及职业招聘网站
-    - title: 猎云网
+      description: A digital media and job recruitment site.
+    - title: Lieyunwang
       logo: images/logos/lieyunwang.png
       url: https://www.lieyunwang.com/
-      description: 互联网创业项目推荐和创业创新资讯
-    - title: 人人都是产品经理
+      description: Recommendations for internet startups and innovation news.
+    - title: Everyone Is a Product Manager
       logo: images/logos/woshipm.png
       url: http://www.woshipm.com/
-      description: 产品经理、产品爱好者学习交流平台
-    - title: 互联网早读课
+      description: A learning community for product managers and enthusiasts.
+    - title: Internet Morning Reads
       logo: images/logos/zaodula.png
       url: https://www.zaodula.com/
-      description: 互联网行业深度阅读与学习平台
-    - title: 产品壹佰 
+      description: In-depth reading and learning about the internet industry.
+    - title: Chanpin100
       logo: images/logos/chanpin100.png
       url: http://www.chanpin100.com/
-      description: 为产品经理爱好者提供最优质的产品资讯、原创内容和相关视频课程
+      description: Top product news, original content, and video courses for product manager enthusiasts.
     - title: PMCAFF
       logo: images/logos/pmcaff.png
       url: http://www.pmcaff.com/
-      description: 中国第一产品经理人气组织，专注于研究互联网产品
-    - title: 爱运营
+      description: China's leading product manager community, focused on internet products.
+    - title: IYunying
       logo: images/logos/iyunying.png
       url: http://www.iyunying.org/
-      description: 网站运营人员学习交流，专注于网站产品运营管理、淘宝运营。
-    - title: 鸟哥笔记
+      description: A learning community for website operators, focused on site operations and Taobao operations.
+    - title: Niaoge Notes
       logo: images/logos/niaogebiji.png
       url: http://www.niaogebiji.com/
-      description: 移动互联网第一干货平台
-    - title: 古田路9号
+      description: A leading platform for practical mobile internet insights.
+    - title: Gtn9
       logo: images/logos/gtn9.png
       url: http://www.gtn9.com/
-      description: 国内专业品牌创意平台
-    - title: 优阁网
+      description: A professional Chinese brand and creativity platform.
+    - title: UIGreat
       logo: images/logos/uigreat.png
       url: http://www.uigreat.com/
-      description: UI设计师学习交流社区
+      description: A learning community for UI designers.
 
 - taxonomy: Revenge
   icon: fa-regular fa-newspaper
   links: 
-    - title: 雷锋网
+    - title: Leiphone
       logo: images/logos/leiphone.png
       url: https://www.leiphone.com/
-      description: 人工智能和智能硬件领域的互联网科技媒体
-    - title: 36kr
+      description: A tech media outlet covering AI and smart hardware.
+    - title: 36Kr
       logo: images/logos/36kr.png
       url: https://36kr.com/
-      description: 创业资讯、科技新闻
-    - title: 数英网
+      description: Startup news and tech coverage.
+    - title: Digitaling
       logo: images/logos/digitaling.png
       url: https://www.digitaling.com/
-      description: 数字媒体及职业招聘网站
-    - title: 猎云网
+      description: A digital media and job recruitment site.
+    - title: Lieyunwang
       logo: images/logos/lieyunwang.png
       url: https://www.lieyunwang.com/
-      description: 互联网创业项目推荐和创业创新资讯
-    - title: 人人都是产品经理
+      description: Recommendations for internet startups and innovation news.
+    - title: Everyone Is a Product Manager
       logo: images/logos/woshipm.png
       url: http://www.woshipm.com/
-      description: 产品经理、产品爱好者学习交流平台
-    - title: 互联网早读课
+      description: A learning community for product managers and enthusiasts.
+    - title: Internet Morning Reads
       logo: images/logos/zaodula.png
       url: https://www.zaodula.com/
-      description: 互联网行业深度阅读与学习平台
-    - title: 产品壹佰 
+      description: In-depth reading and learning about the internet industry.
+    - title: Chanpin100
       logo: images/logos/chanpin100.png
       url: http://www.chanpin100.com/
-      description: 为产品经理爱好者提供最优质的产品资讯、原创内容和相关视频课程
+      description: Top product news, original content, and video courses for product manager enthusiasts.
     - title: PMCAFF
       logo: images/logos/pmcaff.png
       url: http://www.pmcaff.com/
-      description: 中国第一产品经理人气组织，专注于研究互联网产品
-    - title: 爱运营
+      description: China's leading product manager community, focused on internet products.
+    - title: IYunying
       logo: images/logos/iyunying.png
       url: http://www.iyunying.org/
-      description: 网站运营人员学习交流，专注于网站产品运营管理、淘宝运营。
-    - title: 鸟哥笔记
+      description: A learning community for website operators, focused on site operations and Taobao operations.
+    - title: Niaoge Notes
       logo: images/logos/niaogebiji.png
       url: http://www.niaogebiji.com/
-      description: 移动互联网第一干货平台
-    - title: 古田路9号
+      description: A leading platform for practical mobile internet insights.
+    - title: Gtn9
       logo: images/logos/gtn9.png
       url: http://www.gtn9.com/
-      description: 国内专业品牌创意平台
-    - title: 优阁网
+      description: A professional Chinese brand and creativity platform.
+    - title: UIGreat
       logo: images/logos/uigreat.png
       url: http://www.uigreat.com/
-      description: UI设计师学习交流社区
+      description: A learning community for UI designers.
 
 - taxonomy: Werewolf
   icon: fa-regular fa-newspaper
@@ -160,404 +160,398 @@
       url: https://r.reelsgo.tv/lyhsKNIOiQWO
       slug: the-alpha-who-thouhgt-i-was-dead
       description: Discover The Alpha Who Thought I Was Dead – a heartbreaking yet hopeful werewolf romance where an Alpha believes his Luna is dead for three years, until a masked healer walks into his pack.
-    - title: 36kr
+    - title: 36Kr
       logo: images/logos/36kr.png
       url: https://36kr.com/
-      description: 创业资讯、科技新闻
-    - title: 数英网
+      description: Startup news and tech coverage.
+    - title: Digitaling
       logo: images/logos/digitaling.png
       url: https://www.digitaling.com/
-      description: 数字媒体及职业招聘网站
-    - title: 猎云网
+      description: A digital media and job recruitment site.
+    - title: Lieyunwang
       logo: images/logos/lieyunwang.png
       url: https://www.lieyunwang.com/
-      description: 互联网创业项目推荐和创业创新资讯
-    - title: 人人都是产品经理
+      description: Recommendations for internet startups and innovation news.
+    - title: Everyone Is a Product Manager
       logo: images/logos/woshipm.png
       url: http://www.woshipm.com/
-      description: 产品经理、产品爱好者学习交流平台
-    - title: 互联网早读课
+      description: A learning community for product managers and enthusiasts.
+    - title: Internet Morning Reads
       logo: images/logos/zaodula.png
       url: https://www.zaodula.com/
-      description: 互联网行业深度阅读与学习平台
-    - title: 产品壹佰 
+      description: In-depth reading and learning about the internet industry.
+    - title: Chanpin100
       logo: images/logos/chanpin100.png
       url: http://www.chanpin100.com/
-      description: 为产品经理爱好者提供最优质的产品资讯、原创内容和相关视频课程
+      description: Top product news, original content, and video courses for product manager enthusiasts.
     - title: PMCAFF
       logo: images/logos/pmcaff.png
       url: http://www.pmcaff.com/
-      description: 中国第一产品经理人气组织，专注于研究互联网产品
-    - title: 爱运营
+      description: China's leading product manager community, focused on internet products.
+    - title: IYunying
       logo: images/logos/iyunying.png
       url: http://www.iyunying.org/
-      description: 网站运营人员学习交流，专注于网站产品运营管理、淘宝运营。
-    - title: 鸟哥笔记
+      description: A learning community for website operators, focused on site operations and Taobao operations.
+    - title: Niaoge Notes
       logo: images/logos/niaogebiji.png
       url: http://www.niaogebiji.com/
-      description: 移动互联网第一干货平台
-    - title: 古田路9号
+      description: A leading platform for practical mobile internet insights.
+    - title: Gtn9
       logo: images/logos/gtn9.png
       url: http://www.gtn9.com/
-      description: 国内专业品牌创意平台
-    - title: 优阁网
+      description: A professional Chinese brand and creativity platform.
+    - title: UIGreat
       logo: images/logos/uigreat.png
       url: http://www.uigreat.com/
-      description: UI设计师学习交流社区
+      description: A learning community for UI designers.
 
 - taxonomy: Rebirth
   icon: fa-regular fa-newspaper
   links: 
-    - title: 雷锋网
+    - title: Leiphone
       logo: images/logos/leiphone.png
       url: https://www.leiphone.com/
-      description: 人工智能和智能硬件领域的互联网科技媒体
-    - title: 36kr
+      description: A tech media outlet covering AI and smart hardware.
+    - title: 36Kr
       logo: images/logos/36kr.png
       url: https://36kr.com/
-      description: 创业资讯、科技新闻
-    - title: 数英网
+      description: Startup news and tech coverage.
+    - title: Digitaling
       logo: images/logos/digitaling.png
       url: https://www.digitaling.com/
-      description: 数字媒体及职业招聘网站
-    - title: 猎云网
+      description: A digital media and job recruitment site.
+    - title: Lieyunwang
       logo: images/logos/lieyunwang.png
       url: https://www.lieyunwang.com/
-      description: 互联网创业项目推荐和创业创新资讯
-    - title: 人人都是产品经理
+      description: Recommendations for internet startups and innovation news.
+    - title: Everyone Is a Product Manager
       logo: images/logos/woshipm.png
       url: http://www.woshipm.com/
-      description: 产品经理、产品爱好者学习交流平台
-    - title: 互联网早读课
+      description: A learning community for product managers and enthusiasts.
+    - title: Internet Morning Reads
       logo: images/logos/zaodula.png
       url: https://www.zaodula.com/
-      description: 互联网行业深度阅读与学习平台
-    - title: 产品壹佰 
+      description: In-depth reading and learning about the internet industry.
+    - title: Chanpin100
       logo: images/logos/chanpin100.png
       url: http://www.chanpin100.com/
-      description: 为产品经理爱好者提供最优质的产品资讯、原创内容和相关视频课程
+      description: Top product news, original content, and video courses for product manager enthusiasts.
     - title: PMCAFF
       logo: images/logos/pmcaff.png
       url: http://www.pmcaff.com/
-      description: 中国第一产品经理人气组织，专注于研究互联网产品
-    - title: 爱运营
+      description: China's leading product manager community, focused on internet products.
+    - title: IYunying
       logo: images/logos/iyunying.png
       url: http://www.iyunying.org/
-      description: 网站运营人员学习交流，专注于网站产品运营管理、淘宝运营。
-    - title: 鸟哥笔记
+      description: A learning community for website operators, focused on site operations and Taobao operations.
+    - title: Niaoge Notes
       logo: images/logos/niaogebiji.png
       url: http://www.niaogebiji.com/
-      description: 移动互联网第一干货平台
-    - title: 古田路9号
+      description: A leading platform for practical mobile internet insights.
+    - title: Gtn9
       logo: images/logos/gtn9.png
       url: http://www.gtn9.com/
-      description: 国内专业品牌创意平台
-    - title: 优阁网
+      description: A professional Chinese brand and creativity platform.
+    - title: UIGreat
       logo: images/logos/uigreat.png
       url: http://www.uigreat.com/
-      description: UI设计师学习交流社区
+      description: A learning community for UI designers.
 
 - taxonomy: Secret Identity
   icon: fa-regular fa-newspaper
   links: 
-    - title: 雷锋网
+    - title: Leiphone
       logo: images/logos/leiphone.png
       url: https://www.leiphone.com/
-      description: 人工智能和智能硬件领域的互联网科技媒体
-    - title: 36kr
+      description: A tech media outlet covering AI and smart hardware.
+    - title: 36Kr
       logo: images/logos/36kr.png
       url: https://36kr.com/
-      description: 创业资讯、科技新闻
-    - title: 数英网
+      description: Startup news and tech coverage.
+    - title: Digitaling
       logo: images/logos/digitaling.png
       url: https://www.digitaling.com/
-      description: 数字媒体及职业招聘网站
-    - title: 猎云网
+      description: A digital media and job recruitment site.
+    - title: Lieyunwang
       logo: images/logos/lieyunwang.png
       url: https://www.lieyunwang.com/
-      description: 互联网创业项目推荐和创业创新资讯
-    - title: 人人都是产品经理
+      description: Recommendations for internet startups and innovation news.
+    - title: Everyone Is a Product Manager
       logo: images/logos/woshipm.png
       url: http://www.woshipm.com/
-      description: 产品经理、产品爱好者学习交流平台
-    - title: 互联网早读课
+      description: A learning community for product managers and enthusiasts.
+    - title: Internet Morning Reads
       logo: images/logos/zaodula.png
       url: https://www.zaodula.com/
-      description: 互联网行业深度阅读与学习平台
-    - title: 产品壹佰 
+      description: In-depth reading and learning about the internet industry.
+    - title: Chanpin100
       logo: images/logos/chanpin100.png
       url: http://www.chanpin100.com/
-      description: 为产品经理爱好者提供最优质的产品资讯、原创内容和相关视频课程
+      description: Top product news, original content, and video courses for product manager enthusiasts.
     - title: PMCAFF
       logo: images/logos/pmcaff.png
       url: http://www.pmcaff.com/
-      description: 中国第一产品经理人气组织，专注于研究互联网产品
-    - title: 爱运营
+      description: China's leading product manager community, focused on internet products.
+    - title: IYunying
       logo: images/logos/iyunying.png
       url: http://www.iyunying.org/
-      description: 网站运营人员学习交流，专注于网站产品运营管理、淘宝运营。
-    - title: 鸟哥笔记
+      description: A learning community for website operators, focused on site operations and Taobao operations.
+    - title: Niaoge Notes
       logo: images/logos/niaogebiji.png
       url: http://www.niaogebiji.com/
-      description: 移动互联网第一干货平台
-    - title: 古田路9号
+      description: A leading platform for practical mobile internet insights.
+    - title: Gtn9
       logo: images/logos/gtn9.png
       url: http://www.gtn9.com/
-      description: 国内专业品牌创意平台
-    - title: 优阁网
+      description: A professional Chinese brand and creativity platform.
+    - title: UIGreat
       logo: images/logos/uigreat.png
       url: http://www.uigreat.com/
-      description: UI设计师学习交流社区
+      description: A learning community for UI designers.
 
 - taxonomy: Pregnant Wife
   icon: fa-regular fa-newspaper
   links: 
-    - title: 雷锋网
+    - title: Leiphone
       logo: images/logos/leiphone.png
       url: https://www.leiphone.com/
-      description: 人工智能和智能硬件领域的互联网科技媒体
-    - title: 36kr
+      description: A tech media outlet covering AI and smart hardware.
+    - title: 36Kr
       logo: images/logos/36kr.png
       url: https://36kr.com/
-      description: 创业资讯、科技新闻
-    - title: 数英网
+      description: Startup news and tech coverage.
+    - title: Digitaling
       logo: images/logos/digitaling.png
       url: https://www.digitaling.com/
-      description: 数字媒体及职业招聘网站
-    - title: 猎云网
+      description: A digital media and job recruitment site.
+    - title: Lieyunwang
       logo: images/logos/lieyunwang.png
       url: https://www.lieyunwang.com/
-      description: 互联网创业项目推荐和创业创新资讯
-    - title: 人人都是产品经理
+      description: Recommendations for internet startups and innovation news.
+    - title: Everyone Is a Product Manager
       logo: images/logos/woshipm.png
       url: http://www.woshipm.com/
-      description: 产品经理、产品爱好者学习交流平台
-    - title: 互联网早读课
+      description: A learning community for product managers and enthusiasts.
+    - title: Internet Morning Reads
       logo: images/logos/zaodula.png
       url: https://www.zaodula.com/
-      description: 互联网行业深度阅读与学习平台
-    - title: 产品壹佰 
+      description: In-depth reading and learning about the internet industry.
+    - title: Chanpin100
       logo: images/logos/chanpin100.png
       url: http://www.chanpin100.com/
-      description: 为产品经理爱好者提供最优质的产品资讯、原创内容和相关视频课程
+      description: Top product news, original content, and video courses for product manager enthusiasts.
     - title: PMCAFF
       logo: images/logos/pmcaff.png
       url: http://www.pmcaff.com/
-      description: 中国第一产品经理人气组织，专注于研究互联网产品
-    - title: 爱运营
+      description: China's leading product manager community, focused on internet products.
+    - title: IYunying
       logo: images/logos/iyunying.png
       url: http://www.iyunying.org/
-      description: 网站运营人员学习交流，专注于网站产品运营管理、淘宝运营。
-    - title: 鸟哥笔记
+      description: A learning community for website operators, focused on site operations and Taobao operations.
+    - title: Niaoge Notes
       logo: images/logos/niaogebiji.png
       url: http://www.niaogebiji.com/
-      description: 移动互联网第一干货平台
-    - title: 古田路9号
+      description: A leading platform for practical mobile internet insights.
+    - title: Gtn9
       logo: images/logos/gtn9.png
       url: http://www.gtn9.com/
-      description: 国内专业品牌创意平台
-    - title: 优阁网
+      description: A professional Chinese brand and creativity platform.
+    - title: UIGreat
       logo: images/logos/uigreat.png
       url: http://www.uigreat.com/
-      description: UI设计师学习交流社区
+      description: A learning community for UI designers.
 
 - taxonomy: Cheating Husband
   icon: fa-regular fa-newspaper
   links: 
-    - title: 雷锋网
+    - title: Leiphone
       logo: images/logos/leiphone.png
       url: https://www.leiphone.com/
-      description: 人工智能和智能硬件领域的互联网科技媒体
-    - title: 36kr
+      description: A tech media outlet covering AI and smart hardware.
+    - title: 36Kr
       logo: images/logos/36kr.png
       url: https://36kr.com/
-      description: 创业资讯、科技新闻
-    - title: 数英网
+      description: Startup news and tech coverage.
+    - title: Digitaling
       logo: images/logos/digitaling.png
       url: https://www.digitaling.com/
-      description: 数字媒体及职业招聘网站
-    - title: 猎云网
+      description: A digital media and job recruitment site.
+    - title: Lieyunwang
       logo: images/logos/lieyunwang.png
       url: https://www.lieyunwang.com/
-      description: 互联网创业项目推荐和创业创新资讯
-    - title: 人人都是产品经理
+      description: Recommendations for internet startups and innovation news.
+    - title: Everyone Is a Product Manager
       logo: images/logos/woshipm.png
       url: http://www.woshipm.com/
-      description: 产品经理、产品爱好者学习交流平台
-    - title: 互联网早读课
+      description: A learning community for product managers and enthusiasts.
+    - title: Internet Morning Reads
       logo: images/logos/zaodula.png
       url: https://www.zaodula.com/
-      description: 互联网行业深度阅读与学习平台
-    - title: 产品壹佰 
+      description: In-depth reading and learning about the internet industry.
+    - title: Chanpin100
       logo: images/logos/chanpin100.png
       url: http://www.chanpin100.com/
-      description: 为产品经理爱好者提供最优质的产品资讯、原创内容和相关视频课程
+      description: Top product news, original content, and video courses for product manager enthusiasts.
     - title: PMCAFF
       logo: images/logos/pmcaff.png
       url: http://www.pmcaff.com/
-      description: 中国第一产品经理人气组织，专注于研究互联网产品
-    - title: 爱运营
+      description: China's leading product manager community, focused on internet products.
+    - title: IYunying
       logo: images/logos/iyunying.png
       url: http://www.iyunying.org/
-      description: 网站运营人员学习交流，专注于网站产品运营管理、淘宝运营。
-    - title: 鸟哥笔记
+      description: A learning community for website operators, focused on site operations and Taobao operations.
+    - title: Niaoge Notes
       logo: images/logos/niaogebiji.png
       url: http://www.niaogebiji.com/
-      description: 移动互联网第一干货平台
-    - title: 古田路9号
+      description: A leading platform for practical mobile internet insights.
+    - title: Gtn9
       logo: images/logos/gtn9.png
       url: http://www.gtn9.com/
-      description: 国内专业品牌创意平台
-    - title: 优阁网
+      description: A professional Chinese brand and creativity platform.
+    - title: UIGreat
       logo: images/logos/uigreat.png
       url: http://www.uigreat.com/
-      description: UI设计师学习交流社区
+      description: A learning community for UI designers.
 
 
 - taxonomy: Mafia
   icon: fa-regular fa-newspaper
   links: 
-    - title: 雷锋网
+    - title: Leiphone
       logo: images/logos/leiphone.png
       url: https://www.leiphone.com/
-      description: 人工智能和智能硬件领域的互联网科技媒体
-    - title: 36kr
+      description: A tech media outlet covering AI and smart hardware.
+    - title: 36Kr
       logo: images/logos/36kr.png
       url: https://36kr.com/
-      description: 创业资讯、科技新闻
-    - title: 数英网
+      description: Startup news and tech coverage.
+    - title: Digitaling
       logo: images/logos/digitaling.png
       url: https://www.digitaling.com/
-      description: 数字媒体及职业招聘网站
-    - title: 猎云网
+      description: A digital media and job recruitment site.
+    - title: Lieyunwang
       logo: images/logos/lieyunwang.png
       url: https://www.lieyunwang.com/
-      description: 互联网创业项目推荐和创业创新资讯
-    - title: 人人都是产品经理
+      description: Recommendations for internet startups and innovation news.
+    - title: Everyone Is a Product Manager
       logo: images/logos/woshipm.png
       url: http://www.woshipm.com/
-      description: 产品经理、产品爱好者学习交流平台
-    - title: 互联网早读课
+      description: A learning community for product managers and enthusiasts.
+    - title: Internet Morning Reads
       logo: images/logos/zaodula.png
       url: https://www.zaodula.com/
-      description: 互联网行业深度阅读与学习平台
-    - title: 产品壹佰 
+      description: In-depth reading and learning about the internet industry.
+    - title: Chanpin100
       logo: images/logos/chanpin100.png
       url: http://www.chanpin100.com/
-      description: 为产品经理爱好者提供最优质的产品资讯、原创内容和相关视频课程
+      description: Top product news, original content, and video courses for product manager enthusiasts.
     - title: PMCAFF
       logo: images/logos/pmcaff.png
       url: http://www.pmcaff.com/
-      description: 中国第一产品经理人气组织，专注于研究互联网产品
-    - title: 爱运营
+      description: China's leading product manager community, focused on internet products.
+    - title: IYunying
       logo: images/logos/iyunying.png
       url: http://www.iyunying.org/
-      description: 网站运营人员学习交流，专注于网站产品运营管理、淘宝运营。
-    - title: 鸟哥笔记
+      description: A learning community for website operators, focused on site operations and Taobao operations.
+    - title: Niaoge Notes
       logo: images/logos/niaogebiji.png
       url: http://www.niaogebiji.com/
-      description: 移动互联网第一干货平台
-    - title: 古田路9号
+      description: A leading platform for practical mobile internet insights.
+    - title: Gtn9
       logo: images/logos/gtn9.png
       url: http://www.gtn9.com/
-      description: 国内专业品牌创意平台
-    - title: 优阁网
+      description: A professional Chinese brand and creativity platform.
+    - title: UIGreat
       logo: images/logos/uigreat.png
       url: http://www.uigreat.com/
-      description: UI设计师学习交流社区
+      description: A learning community for UI designers.
 
 
 - taxonomy: Cinderella
   icon: fa-regular fa-newspaper
   links: 
-    - title: 雷锋网
+    - title: Leiphone
       logo: images/logos/leiphone.png
       url: https://www.leiphone.com/
-      description: 人工智能和智能硬件领域的互联网科技媒体
-    - title: 36kr
+      description: A tech media outlet covering AI and smart hardware.
+    - title: 36Kr
       logo: images/logos/36kr.png
       url: https://36kr.com/
-      description: 创业资讯、科技新闻
-    - title: 数英网
+      description: Startup news and tech coverage.
+    - title: Digitaling
       logo: images/logos/digitaling.png
       url: https://www.digitaling.com/
-      description: 数字媒体及职业招聘网站
-    - title: 猎云网
+      description: A digital media and job recruitment site.
+    - title: Lieyunwang
       logo: images/logos/lieyunwang.png
       url: https://www.lieyunwang.com/
-      description: 互联网创业项目推荐和创业创新资讯
-    - title: 人人都是产品经理
+      description: Recommendations for internet startups and innovation news.
+    - title: Everyone Is a Product Manager
       logo: images/logos/woshipm.png
       url: http://www.woshipm.com/
-      description: 产品经理、产品爱好者学习交流平台
-    - title: 互联网早读课
+      description: A learning community for product managers and enthusiasts.
+    - title: Internet Morning Reads
       logo: images/logos/zaodula.png
       url: https://www.zaodula.com/
-      description: 互联网行业深度阅读与学习平台
-    - title: 产品壹佰 
+      description: In-depth reading and learning about the internet industry.
+    - title: Chanpin100
       logo: images/logos/chanpin100.png
       url: http://www.chanpin100.com/
-      description: 为产品经理爱好者提供最优质的产品资讯、原创内容和相关视频课程
+      description: Top product news, original content, and video courses for product manager enthusiasts.
     - title: PMCAFF
       logo: images/logos/pmcaff.png
       url: http://www.pmcaff.com/
-      description: 中国第一产品经理人气组织，专注于研究互联网产品
-    - title: 爱运营
+      description: China's leading product manager community, focused on internet products.
+    - title: IYunying
       logo: images/logos/iyunying.png
       url: http://www.iyunying.org/
-      description: 网站运营人员学习交流，专注于网站产品运营管理、淘宝运营。
-    - title: 鸟哥笔记
+      description: A learning community for website operators, focused on site operations and Taobao operations.
+    - title: Niaoge Notes
       logo: images/logos/niaogebiji.png
       url: http://www.niaogebiji.com/
-      description: 移动互联网第一干货平台
-    - title: 古田路9号
+      description: A leading platform for practical mobile internet insights.
+    - title: Gtn9
       logo: images/logos/gtn9.png
       url: http://www.gtn9.com/
-      description: 国内专业品牌创意平台
-    - title: 优阁网
+      description: A professional Chinese brand and creativity platform.
+    - title: UIGreat
       logo: images/logos/uigreat.png
       url: http://www.uigreat.com/
-      description: UI设计师学习交流社区
+      description: A learning community for UI designers.
 
 
     
 
 
      
-- taxonomy: 友情链接
+- taxonomy: Friendly Links
   icon: fa-link
   friend:
-    - title: 子页面一
-      url: sub1
-      description: 本站子页面1
-    - title: 子页面二
-      url: sub2
-      description: 本站子页面2
     - title: webstack.cc
       url: https://webstack.cc
-      description: webstack - 设计师网址导航
-    - title: 一为导航
+      description: WebStack — a designer website navigation.
+    - title: OneNav Navigation
       url: https://nav.iowen.cn/
-      description: onenav主题演示站
-    - title: 趣导航
+      description: A OneNav theme demo site.
+    - title: Fun Navigation
       url: https://qssily.com/
-    - title: 404导航
+    - title: 404 Navigation
       url: https://www.404dh.icu/
-      description: 只导航优质资源
+      description: Only high-quality resources.
     - title: OPENI
       url: https://openi.cn/
-    - title: 飞猪ai导航
+    - title: Feizhu AI Navigation
       url: https://feizhuke.com/
-      description: AI工具集箱
-    - title: bioit导航
+      description: A toolbox of AI tools.
+    - title: BioIT Navigation
       url: https://www.bioit.top/
       description:
-    - title: 所长导航
+    - title: Director's Navigation
       url: https://liutongxu.github.io/
       description:
-    - title: 一为webstack
+    - title: OneNav WebStack
       url: https://webstack.iotheme.cn/
     - title: iplaycode
       url: https://iplaycode.github.io/nav/
-      description: iplaycode的demo导航网站
+      description: iplaycode's demo navigation site.
 ---

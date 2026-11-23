@@ -1,84 +1,64 @@
 ---
-title: "behance"
-description: "behance 是全球知名的设计师作品分享与设计灵感平台，设计师可以在这里展示作品、发现灵感并关注其他创作者。"
+title: "Behance"
+description: "Adobe's designer community, where designers from around the world share their work."
 keywords:
-  - behance
-  - behance官网
-  - 设计师作品
-  - UI设计
-  - UX设计
-  - 设计灵感
-website: "https://behance.com/"
-logo: "/images/logos/dribbble.png"
+  - Behance
+  - Behance official website
+  - designer portfolios
+  - UI design
+  - UX design
+  - design inspiration
+website: "https://www.behance.net/"
+logo: "/images/logos/behance.png"
 ---
 
-# Dribbble
+# Behance
 
-Dribbble 是一个面向设计师和创意工作者的作品展示与灵感交流平台。用户可以在这里浏览 UI、UX、网页设计、品牌设计、插画等各种优秀作品。
+Adobe's designer community, where designers from around the world share their work.
 
-## 视频
+## What Is Behance?
 
-<iframe
-  width="100%"
-  height="600"
-  src="https://www.youtube.com/embed/k6p6jiaQaAE"
-  title="YouTube Shorts"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen>
-</iframe>
+Behance is a global platform for designers to showcase their portfolios and discover creative work. Designers can publish projects, get discovered by clients and employers, and follow other creators for inspiration.
 
-## Dribbble 是什么？
+If you are looking for graphic design, illustration, photography, UI/UX, branding, or motion design inspiration, Behance is a website worth bookmarking.
 
-Dribbble 是全球知名的设计作品展示与设计师交流平台。
+## Key Features
 
-如果你正在寻找网页设计、APP 界面、UI/UX、品牌设计或者视觉设计方面的灵感，Dribbble 是一个值得收藏的网站。
+- Browse portfolios from designers around the world
+- Discover inspiration for graphic, UI/UX, brand, and visual design
+- Follow designers and creative studios
+- Showcase your own work in a public portfolio
+- Find design jobs and freelance opportunities
 
-## Dribbble 主要功能
+## Who Is It For?
 
-- 浏览全球设计师优秀作品
-- 获取 UI/UX 设计灵感
-- 搜索网页和移动应用界面
-- 发现设计趋势
-- 关注优秀设计师
-- 分享自己的设计作品
-- 寻找设计相关工作和合作机会
+Behance is especially for:
 
-## Dribbble 适合哪些人？
+- Graphic designers
+- UI designers
+- UX designers
+- Illustrators
+- Photographers
+- Brand designers
+- Art directors
+- Anyone looking for design inspiration
 
-Dribbble 特别适合：
+## Visit the Official Website
 
-- UI 设计师
-- UX 设计师
-- 网页设计师
-- 平面设计师
-- 插画师
-- 产品经理
-- 前端开发人员
-- 需要寻找设计灵感的创作者
+If you want to explore Behance, use the button on this page or the link below to visit its official website.
 
-## Dribbble 的特点
+**[Visit the Official Website of Behance](https://www.behance.net/)**
 
-Dribbble 最大的特点是拥有大量高质量的设计作品。
+## Frequently Asked Questions
 
-与普通图片网站相比，Dribbble 上的内容更加集中于 UI、UX、品牌、网页、APP 和数字产品设计，因此非常适合作为设计灵感和视觉参考来源。
+### What Is Behance?
 
-## Dribbble 官网
+Behance is Adobe's platform where designers share their portfolios and discover creative work from around the world.
 
-如果你想访问 Dribbble，可以通过下面的按钮进入官方网站。
+### Is Behance free to use?
 
-**[立即访问 Dribbble 官网](https://dribbble.com/)**
+Yes, browsing Behance is free. Designers can create a portfolio and share their work on the platform.
 
-## 常见问题
+### What kind of work can I find on Behance?
 
-### Dribbble 是什么？
-
-Dribbble 是一个全球性的设计作品展示和设计师交流平台。
-
-### Dribbble 适合初学者吗？
-
-适合。初学者可以通过浏览优秀作品学习 UI、UX、网页设计和视觉设计。
-
-### Dribbble 可以做什么？
-
-可以浏览设计作品、寻找设计灵感、关注设计师、发布作品，也可以寻找设计工作和商业合作机会。
+You can find graphic design, illustration, photography, UI/UX design, branding, motion design, and many other creative fields.

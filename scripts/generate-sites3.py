@@ -4,7 +4,7 @@ import yaml
 from pypinyin import lazy_pinyin
 
 DATA_FILE = "data/webstack.yml"
-OUTPUT_DIR = "content/sites"
+OUTPUT_DIR = "content.en/sites"
 SLUG_FILE = "data/site-slugs.yml"
 
 def make_slug(title):
@@ -42,7 +42,7 @@ def create_markdown(site):
     description=clean(site.get("description",""))
     website=clean(site.get("url",""))
     logo=clean(site.get("logo",""))
-    keywords=[title,f"{title}官网",f"{title}官方网站",f"{title}介绍",f"{title}是什么"]
+    keywords=[title,f"{title} official website",f"{title} introduction",f"{title} what is"]
     content=f'''---
 title: "{clean(title)}"
 description: "{description}"
@@ -58,64 +58,64 @@ slug: "{slug}"
 
 {description}
 
-## {title} 是什么？
+## What Is {title}?
 
-{title} 是一个值得收藏和使用的网站。
+{title} is a website worth bookmarking and using.
 
-如果你正在寻找与 **{title}** 相关的服务、工具、内容或资源，可以通过本站了解相关信息。
+If you are looking for services, tools, content, or resources related to **{title}**, you can learn more here.
 
-## {title} 主要功能
+## Key Features
 
-- 了解 {title} 提供的服务
-- 浏览 {title} 提供的内容
-- 获取相关使用信息
-- 访问 {title} 官方网站
+- Learn about the services {title} offers
+- Browse the content {title} offers
+- Find information about how to use it
+- Visit the official website of {title}
 
-## {title} 适合哪些人？
+## Who Is It For?
 
-{title} 适合需要相关服务、工具、内容或资源的用户。
+{title} is for users who need related services, tools, content, or resources.
 
-## {title} 的主要特点
+## What Makes It Special
 
-{title} 提供了与其服务领域相关的内容和功能。
+{title} offers content and features related to its field.
 
-第一次使用时，建议先访问官方网站，了解具体服务、使用方式以及最新信息。
+For first-time use, we recommend visiting the official website first to learn about its services, how to use them, and the latest information.
 
-## {title} 官网
+## Visit the Official Website
 
-如果你想进一步了解 {title}，可以访问官方网站。
+If you want to learn more about {title}, visit its official website.
 
-**[立即访问 {title} 官网]({website})**
+**[Visit the Official Website of {title}]({website})**
 
-## 常见问题
+## Frequently Asked Questions
 
-### {title} 是什么？
+### What Is {title}?
 
-{title} 是一个提供相关服务、工具或内容的网站。
+{title} is a website that offers related services, tools, or content.
 
-### {title} 官网在哪里？
+### Where Is the Official Website of {title}?
 
-{title} 的官方网站是：
+The official website of {title} is:
 
 {website}
 
-### 如何访问 {title}？
+### How Do I Visit {title}?
 
-点击“立即访问 {title} 官网”即可进入官方网站。
+Click "Visit the Official Website of {title}" to visit the official website.
 
-### {title} 是否值得收藏？
+### Is {title} Worth Bookmarking?
 
-如果你经常需要使用 {title} 提供的服务，可以将其加入浏览器书签。
+If you use the services {title} offers often, add it to your browser bookmarks.
 '''
     os.makedirs(OUTPUT_DIR,exist_ok=True)
     with open(os.path.join(OUTPUT_DIR,slug+'.md'),'w',encoding='utf-8') as f: f.write(content)
-    print('生成：'+os.path.join(OUTPUT_DIR,slug+'.md'))
+    print('Generated: '+os.path.join(OUTPUT_DIR,slug+'.md'))
     return slug
 
 def main():
-    print('读取：',DATA_FILE)
+    print('Reading:',DATA_FILE)
     data=load_yaml_documents(); sites=flatten_links(data)
-    print(f'发现网站：{len(sites)} 个')
+    print(f'Found sites: {len(sites)}')
     seen=set(); mapping={}; success=skipped=0
     for site in sites:
         title=str(site.get('title','')).strip()
@@ -128,7 +128,7 @@ def main():
     os.makedirs('data',exist_ok=True)
     with open(SLUG_FILE,'w',encoding='utf-8') as f:
         yaml.safe_dump(mapping,f,allow_unicode=True,sort_keys=False)
-    print('='*50); print('详情页生成完成'); print('='*50)
-    print(f'成功：{success}'); print(f'跳过：{skipped}'); print(f'Slug 映射：{SLUG_FILE}')
+    print('='*50); print('Detail pages generated'); print('='*50)
+    print(f"Success: {success}"); print(f"Skipped: {skipped}"); print(f'Slug map: {SLUG_FILE}')
 
 if __name__=='__main__': main()

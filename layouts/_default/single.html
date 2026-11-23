@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ printf (i18n "seo_title") .Title .Title .Site.Title }}</title>
+<title>{{ .Title }} - {{ .Site.Title }}</title>
 <meta name="keywords" content="{{ delimit (.Params.keywords | default (slice)) ", " }}">
 <meta name="description" content="{{ .Description }}">
 <link rel="canonical" href="{{ .Permalink }}">
@@ -30,7 +30,7 @@
 </div></header>
 <ul id="main-menu" class="main-menu"><li><a href="{{ .Site.Home.RelPermalink }}"><i class="fa fa-home fa-fw"></i><span class="title">{{ i18n "home" }}</span></a></li>
 {{ if .Site.Params.edit.enable }}<li><a href="{{ .Site.Params.edit.url }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-edit fa-fw"></i><span class="tooltip-blue">{{ i18n "online_edit" }}</span></a></li>{{ end }}
-<li><a href="{{ "about/" | relLangURL }}"><i class="fa fa-heart fa-fw"></i><span class="tooltip-blue">about</span></a></li></ul>
+<li><a href="{{ "about/" | relLangURL }}"><i class="fa fa-heart fa-fw"></i><span class="tooltip-blue">About</span></a></li></ul>
 </div></div>
 <div class="main-content">
 <nav class="navbar user-info-navbar"><div class="navbar-content"><ul class="user-info-menu left-links list-inline list-unstyled"><li class="hidden-xs"><a href="#" data-toggle="sidebar"><i class="fa fa-bars"></i></a></li></ul></div></nav>

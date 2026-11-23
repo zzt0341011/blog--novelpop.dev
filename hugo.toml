@@ -4,51 +4,42 @@ defaultContentLanguage = "en"
 title = "novelpop.dev"
 theme = "hugo-webstack"
 
-# true：允许大写字母 URL 路径
-# false：将 URL 路径转换成小写
+# true: allow uppercase letters in URL paths
+# false: convert URL paths to lowercase
 disablePathToLower = true
 
-# 页脚作者
+# Footer author
 copyright = "novelpop.dev"
 
-# 网站信息，仅供搜索引擎参考
+# Site information, for search engines only
 [params]
-  keywords = "短剧, 小说, 霸道总裁, 玄幻, 都市, 吸血鬼, 武侠"
-  description = "novelpop.dev，收集全网最好看的短剧，小说"
+  keywords = "short drama, novel, billionaire CEO, fantasy, urban, vampire, martial arts"
+  description = "novelpop.dev, collecting the best short dramas and novels from across the web"
 
-# 目录
+# Table of contents
 [markup.tableOfContents]
   startLevel = 1
 
 # =========================
-# 多语言
+# Languages
 # =========================
 
 [languages]
 
-[languages.zh]
-  languageName = "中文"
-  contentDir = "content.zh"
-  weight = 1
-
 [languages.en]
   languageName = "English"
   contentDir = "content.en"
-  weight = 2
-[languages.ru]
-  languageName = "Русский"
-  contentDir = "content.ru"
-  weight = 3
+  weight = 1
 
 # =========================
-# 搜索
+# Search
 # =========================
 
 [params.search]
   enable = true
 
 # =========================
-# 暗色模式
+# Dark mode
 # =========================
 
 [params.darkmode]
@@ -60,14 +51,14 @@ copyright = "novelpop.dev"
       unsafe = true
 
 # =========================
-# 拼音搜索
+# Pinyin search
 # =========================
 
 [params.pinyin]
-  enable = true
+  enable = false
 
 # =========================
-# GitHub 在线编辑
+# GitHub online editing
 # =========================
 
 #[params.edit]
@@ -75,7 +66,7 @@ copyright = "novelpop.dev"
 #  url = "https://github.com/zzt0341011/blog9-4566.lol/blob/main/data/webstack.yml"
 
 # =========================
-# GitHub 按钮
+# GitHub button
 # =========================
 
 #[params.github]
@@ -90,12 +81,12 @@ copyright = "novelpop.dev"
   404 = "/404.html"
 
 # =========================
-# 顶部/底部菜单
+# Top / bottom menu
 # =========================
 
 #[menu]
 
 #[[menu.after]]
-#  name = "7元20G不限时"
-#  url = "https://快车.com?c=REZUOC"
+#  name = "7 yuan for 20G, no expiry"
+#  url = "https://example.com?c=REZUOC"
 #  weight = 20

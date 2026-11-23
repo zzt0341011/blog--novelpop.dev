@@ -1,82 +1,82 @@
 {{ if .Params.comments }}
-<!-- Waline 评论系统 -->
+<!-- Waline comment system -->
 <div class="book-comments">
   <hr style="margin: 3rem 0 2rem 0; border: none; border-top: 1px solid var(--gray-200);">
   
-  <h3 style="margin-bottom: 1.5rem; font-size: 1.5rem;">💬 留言区</h3>
+  <h3 style="margin-bottom: 1.5rem; font-size: 1.5rem;">💬 Comments</h3>
   
-  <!-- 引入 Waline 样式 -->
+  <!-- Load Waline styles -->
   <link
     rel="stylesheet"
     href="https://unpkg.com/@waline/client@v3/dist/waline.css"
   />
   
-  <!-- Waline 容器 -->
+  <!-- Waline container -->
   <div id="waline"></div>
   
-  <!-- Waline 初始化脚本 -->
+  <!-- Waline init script -->
   <script type="module">
     import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
     
     init({
       el: '#waline',
-      serverURL: 'https://waline1-pi.vercel.app/', // ⚠️ 必须替换成你自己的地址！
-      lang: 'zh-CN',
+      serverURL: 'https://waline1-pi.vercel.app/', // ⚠️ Replace this with your own address!
+      lang: 'en',
       
-      // 中文界面配置
+      // English UI configuration
       locale: {
-        placeholder: '欢迎留言，说点什么吧...',
-        sofa: '快来做第一个评论的人吧~',
-        submit: '提交',
-        reply: '回复',
-        cancelReply: '取消回复',
-        comment: '评论',
-        refresh: '刷新',
-        more: '加载更多...',
-        preview: '预览',
-        emoji: '表情',
-        uploadImage: '上传图片',
-        nick: '昵称',
-        nickError: '昵称不能少于3个字符',
-        mail: '邮箱',
-        mailError: '请填写正确的邮件地址',
-        link: '网址',
-        optional: '可选',
-        anonymous: '匿名',
-        login: '登录',
-        logout: '退出',
-        admin: '管理员',
-        word: '字',
-        wordHint: '评论字数应在 $0 到 $1 字之间！\n当前字数：$2',
-        seconds: '秒前',
-        minutes: '分钟前',
-        hours: '小时前',
-        days: '天前',
-        now: '刚刚',
+        placeholder: 'Leave a comment...',
+        sofa: 'Be the first to comment!',
+        submit: 'Submit',
+        reply: 'Reply',
+        cancelReply: 'Cancel reply',
+        comment: 'Comment',
+        refresh: 'Refresh',
+        more: 'Load more...',
+        preview: 'Preview',
+        emoji: 'Emoji',
+        uploadImage: 'Upload image',
+        nick: 'Nickname',
+        nickError: 'Nickname must be at least 3 characters',
+        mail: 'Email',
+        mailError: 'Please enter a valid email address',
+        link: 'Website',
+        optional: 'Optional',
+        anonymous: 'Anonymous',
+        login: 'Log in',
+        logout: 'Log out',
+        admin: 'Admin',
+        word: 'words',
+        wordHint: 'Your comment should be between $0 and $1 words!\nCurrent word count: $2',
+        seconds: 'seconds ago',
+        minutes: 'minutes ago',
+        hours: 'hours ago',
+        days: 'days ago',
+        now: 'just now',
       },
       
-      // 核心配置
-      login: 'disable',           // 禁用登录，允许匿名评论
-      requiredMeta: ['nick'],     // 只要求填写昵称
-      avatar: 'monsterid',        // 头像样式
-      avatarCDN: 'https://sdn.geekzu.org/avatar/', // 使用国内头像 CDN
-      pageSize: 10,               // 每页评论数
-      wordLimit: [0, 1000],       // 评论字数限制 0-1000
-      dark: 'auto',               // 自动适配暗色模式
+      // Core configuration
+      login: 'disable',           // Disable login, allow anonymous comments
+      requiredMeta: ['nick'],     // Only require a nickname
+      avatar: 'monsterid',        // Avatar style
+      avatarCDN: 'https://sdn.geekzu.org/avatar/', // Avatar CDN
+      pageSize: 10,               // Comments per page
+      wordLimit: [0, 1000],       // Comment word limit: 0-1000
+      dark: 'auto',               // Auto dark mode
       
-      // 可选功能（根据需要开启/关闭）
-      imageUploader: false,       // 禁用图片上传
-      highlighter: false,         // 禁用代码高亮
-      texRenderer: false,         // 禁用数学公式
-      search: false,              // 禁用搜索表情功能
+      // Optional features (enable as needed)
+      imageUploader: false,       // Disable image uploads
+      highlighter: false,         // Disable code highlighting
+      texRenderer: false,         // Disable math formulas
+      search: false,              // Disable emoji search
       
-      // 评论排序
-      commentSorting: 'latest',   // latest: 最新优先, oldest: 最早优先, hottest: 最热优先
+      // Comment sorting
+      commentSorting: 'latest',   // latest: newest first, oldest: oldest first, hottest: most popular first
     });
   </script>
 </div>
 
-<!-- 评论区样式优化 -->
+<!-- Comment section style tweaks -->
 <style>
   .book-comments {
     margin-top: 3rem;
@@ -93,14 +93,14 @@
     margin-top: 1rem;
   }
   
-  /* 适配 Hugo Book 主题的暗色模式 */
+  /* Adapt to the Hugo Book theme's dark mode */
   @media (prefers-color-scheme: dark) {
     .book-comments hr {
       border-top-color: var(--gray-700) !important;
     }
   }
   
-  /* 让评论框更美观 */
+  /* Make the comment box look better */
   .wl-editor {
     border-radius: 0.5rem;
   }
@@ -109,7 +109,7 @@
     border-radius: 0.25rem;
   }
   
-  /* 响应式优化 */
+  /* Responsive tweaks */
   @media (max-width: 768px) {
     .book-comments {
       margin-top: 2rem;

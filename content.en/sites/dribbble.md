@@ -1,72 +1,72 @@
 ---
 title: "Dribbble"
-description: "Dribbble 是全球知名的设计师作品分享与设计灵感平台，设计师可以在这里展示作品、发现灵感并关注其他创作者。"
+description: "Dribbble is a global platform where designers share their work and find inspiration."
 keywords:
   - Dribbble
-  - Dribbble官网
-  - 设计师作品
-  - UI设计
-  - UX设计
-  - 设计灵感
+  - Dribbble official website
+  - designer portfolios
+  - UI design
+  - UX design
+  - design inspiration
 website: "https://dribbble.com/"
 logo: "/images/logos/dribbble.png"
 ---
 
 # Dribbble
 
-Dribbble 是一个面向设计师和创意工作者的作品展示与灵感交流平台。用户可以在这里浏览 UI、UX、网页设计、品牌设计、插画等各种优秀作品。
+Dribbble is a global platform where designers share their work and find inspiration. It is a showcase and community for designers and creative professionals, where you can browse UI, UX, web design, brand design, illustration, and many other kinds of excellent work.
 
-## Dribbble 是什么？
+## What Is Dribbble?
 
-Dribbble 最初主要面向设计师作品展示，现在已经发展成为一个全球性的设计社区。
+Dribbble started as a platform for designers to share their work, and it has grown into a global design community.
 
-如果你正在寻找网页设计、APP 界面、UI/UX、品牌设计或者视觉设计方面的灵感，Dribbble 是一个值得收藏的网站。
+If you are looking for inspiration for web design, app interfaces, UI/UX, brand design, or visual design, Dribbble is a website worth bookmarking.
 
-## Dribbble 主要功能
+## Key Features
 
-- 浏览全球设计师优秀作品
-- 获取 UI/UX 设计灵感
-- 搜索网页和移动应用界面
-- 发现设计趋势
-- 关注优秀设计师
-- 分享自己的设计作品
-- 寻找设计相关工作和合作机会
+- Browse excellent work from designers around the world
+- Find inspiration for UI and UX design
+- Search for web and mobile app interfaces
+- Discover design trends
+- Follow outstanding designers
+- Share your own design work
+- Find design jobs and collaboration opportunities
 
-## Dribbble 适合哪些人？
+## Who Is It For?
 
-Dribbble 特别适合：
+Dribbble is especially for:
 
-- UI 设计师
-- UX 设计师
-- 网页设计师
-- 平面设计师
-- 插画师
-- 产品经理
-- 前端开发人员
-- 需要寻找设计灵感的创作者
+- UI designers
+- UX designers
+- Web designers
+- Graphic designers
+- Illustrators
+- Product managers
+- Front-end developers
+- Creators looking for design inspiration
 
-## Dribbble 的特点
+## What Makes It Special
 
-Dribbble 最大的特点是拥有大量高质量的设计作品。
+Dribbble's biggest strength is its large collection of high-quality design work.
 
-与普通图片网站相比，Dribbble 上的内容更加集中于 UI、UX、品牌、网页、APP 和数字产品设计，因此非常适合作为设计灵感和视觉参考来源。
+Compared with ordinary image sites, Dribbble focuses on UI, UX, branding, web, app, and digital product design, so it is an excellent source of design inspiration and visual references.
 
-## Dribbble 官网
+## Visit the Official Website
 
-如果你想访问 Dribbble，可以通过下面的按钮进入官方网站。
+If you want to visit Dribbble, use the button on this page or the link below to go to its official website.
 
-**[立即访问 Dribbble 官网](https://dribbble.com/)**
+**[Visit the Official Website of Dribbble](https://dribbble.com/)**
 
-## 常见问题
+## Frequently Asked Questions
 
-### Dribbble 是什么？
+### What Is Dribbble?
 
-Dribbble 是一个全球性的设计作品展示和设计师交流平台。
+Dribbble is a global platform where designers share their work and connect with other designers.
 
-### Dribbble 适合初学者吗？
+### Is Dribbble suitable for beginners?
 
-适合。初学者可以通过浏览优秀作品学习 UI、UX、网页设计和视觉设计。
+Yes. Beginners can learn UI, UX, web design, and visual design by browsing excellent work.
 
-### Dribbble 可以做什么？
+### What can I do on Dribbble?
 
-可以浏览设计作品、寻找设计灵感、关注设计师、发布作品，也可以寻找设计工作和商业合作机会。
+You can browse design work, find design inspiration, follow designers, publish your work, and look for design jobs and business opportunities.

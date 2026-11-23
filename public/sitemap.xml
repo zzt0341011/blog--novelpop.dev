@@ -1,25 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://novelpop.dev/en/sitemap.xml</loc>
-    
-      <lastmod>2023-12-20T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://novelpop.dev/zh/sitemap.xml</loc>
-    
-      <lastmod>2023-12-20T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://novelpop.dev/ru/sitemap.xml</loc>
-    
-      <lastmod>2023-12-20T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://novelpop.dev/about/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://novelpop.dev/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://novelpop.dev/sites/36kr-9/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/behance/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/categories/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/chan-pin-yi-bai-9/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/shu-ying-wang-9/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/dribbble/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/ren-ren-dou-shi-chan-pin-jing-li-9/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/google/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/gu-tian-lu-9-hao-9/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/hua-ban/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/hu-lian-wang-zao-du-ke-9/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/ai-yun-ying-9/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/lei-feng-wang-8/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/lie-yun-wang-9/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/medium/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/niao-ge-bi-ji-9/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/pinterest/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/pmcaff-9/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/producthunt/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/er-wei-ma-yan-shi/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/tags/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/the-alpha-who-thouhgt-i-was-dead/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/ui-zhong-guo/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/you-ge-wang-9/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/you-she/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/youtube/</loc>
+  </url><url>
+    <loc>https://novelpop.dev/sites/zhan-ku/</loc>
+  </url>
+</urlset>

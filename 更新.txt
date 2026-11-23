@@ -1,39 +1,34 @@
-
-
-
-
-以后你新增网站或修改网站信息，只需要维护：
+To add a new site or change site information, just maintain:
 
 data/webstack.yml
 
-然后执行：
+Then run:
 
 python scripts/generate-sites.py
 hugo
 
-就会自动：
+This will automatically:
 
-生成详情页
-自动生成英文/拼音 slug
-自动更新 data/site-slugs.yml
-首页自动链接到详情页
-中文网站自动生成拼音 URL
+- Generate detail pages
+- Generate English slugs automatically
+- Update data/site-slugs.yml
+- Link the homepage to the detail pages automatically
 
-例如新增：
+Example — add:
 
 - title: OpenAI
   url: https://openai.com/
-  description: 人工智能研究与产品平台
+  description: An AI research and product platform
 
-自动得到：
+You will automatically get:
 
-content/sites/openai.md
+content.en/sites/openai.md
 
-首页点击：
+Homepage link:
 
 /sites/openai/
 
-更新博客
+Update the blog
 
 python3 scripts/generate-sites.py
 
@@ -41,7 +36,7 @@ git add .
 git commit -m "add tuiwen-novelpop.dev"
 git push -u origin main
 
-最新更新
+Latest update
 
 python scripts/generate-sites.py
 
@@ -51,3 +46,6 @@ git add .
 git commit -m "Update website"
 
 git push
+
+Note: the site is now English-only. There are no Chinese or Russian
+versions — do not add content.zh, content.ru, i18n/zh.toml, or i18n/ru.toml.

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -18,8 +18,8 @@
 <meta property="og:site_name" content="{{ .Site.Title }}">
 
 <!-- =========================
-     静态资源
-     使用 relURL，避免 /zh/css/、/en/css/、/ru/css/
+     Static assets
+     Use relURL to avoid /en/css/ paths
      ========================= -->
 
 <link rel="shortcut icon" href="{{ "images/favicon.png" | relURL }}">
@@ -53,7 +53,7 @@
 <div class="page-container">
 
     <!-- =========================
-         左侧菜单
+         Left sidebar menu
          ========================= -->
 
     <div class="sidebar-menu toggle-others fixed">
@@ -165,7 +165,7 @@
                 {{ end }}
 
 
-                <!-- 在线编辑 -->
+                <!-- Edit Online -->
 
                 {{ if .Site.Params.edit.enable }}
 
@@ -180,7 +180,7 @@
                             <i class="fa fa-edit fa-fw"></i>
 
                             <span class="tooltip-blue">
-                                在线编辑
+                                Edit Online
                             </span>
 
                         </a>
@@ -190,7 +190,7 @@
                 {{ end }}
 
 
-                <!-- 关于本站 -->
+                <!-- About -->
 
                 <li>
 
@@ -199,7 +199,7 @@
                         <i class="fa fa-heart fa-fw"></i>
 
                         <span class="tooltip-blue">
-                            关于本站
+                            About
                         </span>
 
                     </a>
@@ -214,7 +214,7 @@
 
 
     <!-- =========================
-         主内容
+         Main content
          ========================= -->
 
     <div class="main-content">
@@ -549,7 +549,7 @@
 
 
             <!-- =========================
-                 友情链接
+                 Friendly Links
                  ========================= -->
 
             {{ if .friend }}
@@ -580,7 +580,7 @@
 
             {{ end }}
 
-            <!-- END 友情链接 -->
+            <!-- END Friendly Links -->
 
         {{ end }}
 
@@ -606,7 +606,7 @@
                 <a
                     href="javascript:"
                     class="bright-dark"
-                    title="日/夜"
+                    title="Day / Night"
                 >
 
                     <i class="fa {{ if .Site.Params.darkmode.enable }}fa-sun{{ else }}fa-moon{{ end }}"></i>
@@ -685,7 +685,7 @@
 
 
 <!-- =========================
-     搜索
+     Search
      ========================= -->
 
 <div id="overlay" style="display:none">
@@ -695,7 +695,7 @@
         <a
             href="javascript:"
             id="close-button"
-            title="点击周围任意地方也可以关闭。"
+            title="Click anywhere around to close."
         >
 
             <i class="fa far fa-circle-xmark"></i>
@@ -708,7 +708,7 @@
             <input
                 type="text"
                 id="search-input"
-                placeholder="输入关键词{{ if .Site.Params.pinyin.enable }}、拼音或拼音首字母{{ end }}"
+                placeholder="Enter keywords"
                 autocomplete="off"
             >
 
@@ -723,7 +723,7 @@
         <ul id="search-results">
 
             <span>
-                搜索本页内容
+                Search this page
             </span>
 
         </ul>
@@ -731,15 +731,7 @@
 
         <p style="font-size:11px">
 
-            键盘：Ctrl+F 开关，
-
-            <strong>↑</strong>
-
-            和
-
-            <strong>↓</strong>
-
-            选择，Enter 访问
+            Keyboard: Ctrl+F to toggle, <strong>↑</strong> and <strong>↓</strong> to select, Enter to visit
 
         </p>
 
@@ -757,7 +749,7 @@
 
 $(document).ready(function() {
 
-    /* 黑暗和明亮模式 START */
+    /* Dark and light mode START */
 
     $('footer.main-footer .foot-button .bright-dark').click(function(){
 
@@ -787,10 +779,10 @@ $(document).ready(function() {
 
     });
 
-    /* 黑暗和明亮模式 END */
+    /* Dark and light mode END */
 
 
-    /* 本地 Logo START */
+    /* Local logo START */
 
     $(".geticon").each(function(){
 
@@ -809,7 +801,7 @@ $(document).ready(function() {
 
     });
 
-    /* 本地 Logo END */
+    /* Local logo END */
 
 
     $(document).on('click', '.has-sub', function(){
@@ -997,7 +989,7 @@ $(document).ready(function() {
 });
 
 
-/* 点击分类跳转 */
+/* Click a category to jump */
 
 var href = "";
 
