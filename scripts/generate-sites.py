@@ -119,6 +119,13 @@ def clean_text(value):
 
 # =========================================================
 # Generate detail pages
+#
+# This script is now safe to run automatically (e.g. in CI):
+# it only creates detail pages that do not exist yet and never
+# overwrites an existing page, so manual edits to a detail page
+# are kept. To regenerate a page, delete its .md file first and
+# run the script again. Pages in content.en/sites whose slug is
+# no longer in data/webstack.yml are removed as orphans.
 # =========================================================
 
 def create_markdown(site, slug):
@@ -244,6 +251,23 @@ If you use the services {title} offers often, add it to your browser bookmarks f
 
 
 # =========================================================
+# Load the existing slug map, if any
+# =========================================================
+
+def load_slug_map():
+
+    if not os.path.exists(SLUG_FILE):
+
+        return {}
+
+    with open(SLUG_FILE, "r", encoding="utf-8") as f:
+
+        data = yaml.safe_load(f)
+
+    return data if isinstance(data, dict) else {}
+
+
+# =========================================================
 # Save the slug map
 # =========================================================
 
@@ -290,8 +314,36 @@ def main():
         f"Found sites: {len(sites)}"
     )
 
+    # data/webstack.yml lists the same site in several categories
+    # (120 links, 25 unique titles). Keep only the first entry
+    # for each title, otherwise duplicates get slugs like -2, -3.
+    unique_sites = []
+    seen_titles = set()
+
+    for site in sites:
+
+        title = str(site.get("title", "")).strip()
+
+        if title and title not in seen_titles:
+
+            seen_titles.add(title)
+
+            unique_sites.append(site)
+
+    sites = unique_sites
+
+    print(
+        f"Unique sites: {len(sites)}"
+    )
+
+    # The slug map in data/site-slugs.yml is the source of truth
+    # for homepage links (/sites/<slug>/). Reuse its slugs so
+    # existing URLs never change; only new titles get a new slug.
+    existing_slugs = load_slug_map()
+
     success = 0
     skipped = 0
+    kept = 0
 
     seen_slugs = set()
 
@@ -309,10 +361,13 @@ def main():
             continue
 
         # -----------------------------------------
-        # Prefer a manually specified slug from YAML
+        # Slug, in priority order:
+        # 1. existing data/site-slugs.yml (never change a URL)
+        # 2. a slug specified in webstack.yml
+        # 3. generated from the title
         # -----------------------------------------
 
-        slug = site.get("slug")
+        slug = existing_slugs.get(title)
 
         if slug:
 
@@ -320,7 +375,15 @@ def main():
 
         else:
 
-            slug = make_slug(title)
+            slug = site.get("slug")
+
+            if slug:
+
+                slug = str(slug).strip().lower()
+
+            else:
+
+                slug = make_slug(title)
 
         if not slug:
 
@@ -335,22 +398,15 @@ def main():
         # Avoid duplicate slugs
         # -----------------------------------------
 
-        original_slug = slug
-
-        counter = 2
-
-        while slug in seen_slugs:
-
-            slug = f"{original_slug}-{counter}"
-
-            counter += 1
-
-        if slug != original_slug:
+        if slug in seen_slugs:
 
             print(
-                f"Duplicate slug: {title}"
+                f"Skipped duplicate slug: {title}"
                 f" → {slug}"
             )
+
+            skipped += 1
+            continue
 
         seen_slugs.add(slug)
 
@@ -361,8 +417,24 @@ def main():
         slug_map[title] = slug
 
         # -----------------------------------------
-        # Generate detail pages
+        # Generate detail pages, but never overwrite
+        # an existing page (manual edits are kept)
         # -----------------------------------------
+
+        existing = os.path.join(
+            OUTPUT_DIR,
+            slug + ".md"
+        )
+
+        if os.path.exists(existing):
+
+            print(
+                f"Kept (exists): {existing}"
+            )
+
+            kept += 1
+
+            continue
 
         if create_markdown(
             site,
@@ -376,6 +448,33 @@ def main():
             skipped += 1
 
     # -----------------------------------------
+    # Remove detail pages whose slug is no longer
+    # in data/webstack.yml
+    # -----------------------------------------
+
+    removed = 0
+
+    if os.path.isdir(OUTPUT_DIR):
+
+        for filename in os.listdir(OUTPUT_DIR):
+
+            if not filename.endswith(".md"):
+                continue
+
+            if filename[:-3] not in seen_slugs:
+
+                orphan = os.path.join(
+                    OUTPUT_DIR,
+                    filename
+                )
+
+                os.remove(orphan)
+
+                print(f"Removed orphan: {orphan}")
+
+                removed += 1
+
+    # -----------------------------------------
     # Save the slug map
     # -----------------------------------------
 
@@ -386,6 +485,8 @@ def main():
     print("Detail pages generated")
     print("=" * 50)
     print(f"Success: {success}")
+    print(f"Kept (already existed): {kept}")
+    print(f"Removed orphans: {removed}")
     print(f"Skipped: {skipped}")
     print(f"Output directory: {OUTPUT_DIR}")
     print(f"Slug map: {SLUG_FILE}")

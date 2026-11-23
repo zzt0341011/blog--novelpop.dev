@@ -34,10 +34,11 @@ def flatten_links(data):
 def clean(v):
     return str(v or "").replace('"','\\"').replace("\r"," ").replace("\n"," ").strip()
 
-def create_markdown(site):
+def create_markdown(site, slug=None):
     title=str(site.get("title","")).strip()
     if not title: return None
-    slug=str(site.get("slug","")).strip().lower() or make_slug(title)
+    if not slug:
+        slug=str(site.get("slug","")).strip().lower() or make_slug(title)
     if not slug: return None
     description=clean(site.get("description",""))
     website=clean(site.get("url",""))
@@ -116,19 +117,43 @@ def main():
     print('Reading:',DATA_FILE)
     data=load_yaml_documents(); sites=flatten_links(data)
     print(f'Found sites: {len(sites)}')
-    seen=set(); mapping={}; success=skipped=0
+    # webstack.yml lists the same site in several categories
+    # (120 links, 25 unique titles). Keep only the first entry
+    # for each title, otherwise duplicates get extra pages.
+    unique=[]; seen_titles=set()
+    for site in sites:
+        t=str(site.get('title','')).strip()
+        if t and t not in seen_titles:
+            seen_titles.add(t); unique.append(site)
+    sites=unique; print(f'Unique sites: {len(sites)}')
+    # Reuse slugs from the existing slug map so existing URLs
+    # never change; only new titles get a new slug.
+    existing={}
+    if os.path.exists(SLUG_FILE):
+        existing=yaml.safe_load(open(SLUG_FILE,encoding='utf-8')) or {}
+    seen=set(); mapping={}; success=skipped=0; kept=0
     for site in sites:
         title=str(site.get('title','')).strip()
-        slug=str(site.get('slug','')).strip().lower() or make_slug(title)
+        slug=str(existing.get(title,'')).strip().lower() or str(site.get('slug','')).strip().lower() or make_slug(title)
         if not slug or slug in seen:
             skipped+=1; continue
         seen.add(slug); mapping[title]=slug
-        if create_markdown(site): success+=1
+        # Never overwrite an existing detail page (manual edits are kept).
+        # Delete the .md file first to regenerate it.
+        if os.path.exists(os.path.join(OUTPUT_DIR,slug+'.md')):
+            print('Kept (exists): '+os.path.join(OUTPUT_DIR,slug+'.md')); kept+=1; continue
+        if create_markdown(site, slug): success+=1
         else: skipped+=1
+    # Remove orphan detail pages no longer in data/webstack.yml.
+    removed=0
+    if os.path.isdir(OUTPUT_DIR):
+        for filename in os.listdir(OUTPUT_DIR):
+            if filename.endswith('.md') and filename[:-3] not in seen:
+                os.remove(os.path.join(OUTPUT_DIR,filename)); print('Removed orphan: '+os.path.join(OUTPUT_DIR,filename)); removed+=1
     os.makedirs('data',exist_ok=True)
     with open(SLUG_FILE,'w',encoding='utf-8') as f:
         yaml.safe_dump(mapping,f,allow_unicode=True,sort_keys=False)
     print('='*50); print('Detail pages generated'); print('='*50)
-    print(f"Success: {success}"); print(f"Skipped: {skipped}"); print(f'Slug map: {SLUG_FILE}')
+    print(f"Success: {success}"); print(f"Kept (already existed): {kept}"); print(f"Removed orphans: {removed}"); print(f"Skipped: {skipped}"); print(f'Slug map: {SLUG_FILE}')
 
 if __name__=='__main__': main()
