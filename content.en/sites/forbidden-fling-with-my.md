@@ -1,6 +1,6 @@
 ---
 title: "Forbidden Fling With My Bestie's Dad"
-description: "After catching her longtime boyfriend cheating with a social-climbing rival, a heartbroken young woman ends up spending an impulsive"
+description: "After catching her longtime boyfriend cheating with a social-climbing rival, a heartbroken young woman ends up spending an"
 keywords:
   - "Forbidden Fling With My Bestie's Dad"
   - "Forbidden Fling With My Bestie's Dad official website"
@@ -8,12 +8,12 @@ keywords:
   - "Forbidden Fling With My Bestie's Dad what is"
 website: "https://r.reelsgo.tv/lyhsKNIOiQWO"
 logo: ""
-slug: "forbidden-fling-with-my-bestie's-dad"
+slug: "forbidden-fling-with-my"
 ---
 
 # Forbidden Fling With My Bestie's Dad
 
-After catching her longtime boyfriend cheating with a social-climbing rival, a heartbroken young woman ends up spending an impulsive
+After catching her longtime boyfriend cheating with a social-climbing rival, a heartbroken young woman ends up spending an
 
 ## What Is Forbidden Fling With My Bestie's Dad?
 
