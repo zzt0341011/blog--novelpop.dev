@@ -5,7 +5,7 @@ other = "Home"
 other = "Visit the Official Website of {{ . }}"
 
 [visit_official]
-other = "Visit Official Website"
+other = "Click to Watch Short Drama"
 
 [online_edit]
 other = "Edit Online"
